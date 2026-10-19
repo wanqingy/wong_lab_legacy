@@ -1,0 +1,8 @@
+source_folder,dest_dataset,dest_path,tif_source,tif_uploaded,xml_file,xml_uploaded,status,last_verified,notes
+human-89d Fovea,human_89d_fovea,wong_lab_retina/human_89d_fovea,8365,8365,human-89d-fovea-tiles.xml,yes,done,2026-10-18,
+101d 17-CZ2a,human_101d_17-CZ2a,wong_lab_retina/human_101d_17-CZ2a,12808,12808,Human-101d-fovea-17-CZ2a 20190703.xml,yes,done,2026-10-18,
+108d fetaltest,human_108d_fetaltest,wong_lab_retina/human_108d_fetaltest,2596,2595,fetaltest-070517.xml,yes,partial,2026-10-18,"slice_0179 of stack_02 unreadable on source drive (I/O error); needs backup copy or chkdsk"
+127d first round,human_127d_first_round,wong_lab_retina/human_127d_first_round,12427,12427,127d-first-round -20180409.xml,yes,done,2026-10-18,
+90d 17-CZ1/Horizontal,human_90d_17-CZ1_horizontal,wong_lab_retina/human_90d_17-CZ1_horizontal,2234,2234,human-90d-fovea.xml,yes,done,2026-10-18,
+90d 17-CZ1/Vertical,human_90d_17-CZ1_vertical,wong_lab_retina/human_90d_17-CZ1_vertical,3996,3996,human-90d-fovea-vertical.xml,yes,done,2026-10-18,
+145d round2,,,4644,0,145d-fovea-2-round2-20190625.xml.gz,no,pending,,"file selection and dest name undecided; part1-5 filenames collide so use filtered_tif/partN/"

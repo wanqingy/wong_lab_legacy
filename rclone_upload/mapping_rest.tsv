@@ -1,0 +1,12 @@
+# type	source	dest (under bossdbwong:upload-bossdb-3gqks4kjnacpujok/)
+# dirtif = copy *.tif only; file = single file
+dirtif	/mnt/e/Allen grant data/EM/101d 17-CZ2a/adjusted TIFF	wong_lab_retina/human_101d_17-CZ2a/filtered_tif
+file	/mnt/e/Allen grant data/EM/101d 17-CZ2a/Human-101d-fovea-17-CZ2a 20190703.xml	wong_lab_retina/human_101d_17-CZ2a/trakem/Human-101d-fovea-17-CZ2a 20190703.xml
+dirtif	/mnt/e/Allen grant data/EM/108d fetaltest/Tifs	wong_lab_retina/human_108d_fetaltest/filtered_tif
+file	/mnt/e/Allen grant data/EM/108d fetaltest/fetaltest-070517.xml	wong_lab_retina/human_108d_fetaltest/trakem/fetaltest-070517.xml
+dirtif	/mnt/e/Allen grant data/EM/127d first round/Processed TIFF	wong_lab_retina/human_127d_first_round/filtered_tif
+file	/mnt/e/Allen grant data/EM/127d first round/127d-first-round -20180409.xml	wong_lab_retina/human_127d_first_round/trakem/127d-first-round -20180409.xml
+dirtif	/mnt/e/Allen grant data/EM/90d 17-CZ1/Horizontal/adjusted TIFFs	wong_lab_retina/human_90d_17-CZ1_horizontal/filtered_tif
+file	/mnt/e/Allen grant data/EM/90d 17-CZ1/Horizontal/human-90d-fovea.xml	wong_lab_retina/human_90d_17-CZ1_horizontal/trakem/human-90d-fovea.xml
+dirtif	/mnt/e/Allen grant data/EM/90d 17-CZ1/Vertical/adjusted tiff	wong_lab_retina/human_90d_17-CZ1_vertical/filtered_tif
+file	/mnt/e/Allen grant data/EM/90d 17-CZ1/Vertical/human-90d-fovea-vertical.xml	wong_lab_retina/human_90d_17-CZ1_vertical/trakem/human-90d-fovea-vertical.xml

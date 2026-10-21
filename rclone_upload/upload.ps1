@@ -36,7 +36,7 @@ foreach ($line in Get-Content $Map) {
     if ($DryRun) { $common += "--dry-run" }
 
     if ($type -eq "dirtif") {
-        $a = @("copy", $src, "$remote/$dest", "--include", "*.tif", "--include", "*.TIF",
+        $a = @("copy", $src, "$remote/$dest", "--include", "*.tif", "--include", "*.TIF", "--include", "*.tiff", "--include", "*.TIFF",
                "--transfers", "8", "--s3-chunk-size", "64M") + $common
     } elseif ($type -eq "file") {
         $a = @("copyto", $src, "$remote/$dest") + $common

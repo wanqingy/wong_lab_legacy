@@ -13,7 +13,7 @@ Last verified: 2026-10-18 (bucket object counts vs source file counts; xml sizes
 | 127d first round | human_127d_first_round | 12427 / 12427 | 127d-first-round -20180409.xml | Done |
 | 90d 17-CZ1/Horizontal | human_90d_17-CZ1_horizontal | 2234 / 2234 | human-90d-fovea.xml | Done |
 | 90d 17-CZ1/Vertical | human_90d_17-CZ1_vertical | 3996 / 3996 | human-90d-fovea-vertical.xml | Done |
-| (pre-existing) | mouse_P11_101116 | 6205 in bucket (source n/a) | full trakem2 folder (123098 objects, 1.46 TiB) | Done earlier, counted 2026-10-19 |
+| (pre-existing) | mouse_P11_101116 | 6205 in bucket (source n/a) | mouse P11 100118.xml (98680485 B, uploaded 2026-10-20 from Win7, verified) + full trakem2 folder (123098 objects, 1.46 TiB at 2026-10-19) | Done |
 | 145d round2 | (not decided) | - | - | Skipped by request; not in mapping |
 
 ## Issues

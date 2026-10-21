@@ -1,6 +1,6 @@
 # BossDB upload progress
 
-Source: `/mnt/e/Allen grant data/EM`
+Source: `/mnt/e/Allen grant data/EM` (WY_P9-C and mouse P7_central2 came from `P:\EM` on the Win7 machine, mapping_p.tsv)
 Destination: `bossdbwong:upload-bossdb-3gqks4kjnacpujok/wong_lab_retina/<dataset>/{filtered_tif,trakem}/`
 Mapping: `mapping.tsv` (all) / `mapping_rest.tsv` (all except 89d). Script: `upload.sh [--dry-run] [--only SUBSTR] [mapping]`.
 Last verified: 2026-10-18 (bucket object counts vs source file counts; xml sizes match source).
@@ -14,6 +14,8 @@ Last verified: 2026-10-18 (bucket object counts vs source file counts; xml sizes
 | 90d 17-CZ1/Horizontal | human_90d_17-CZ1_horizontal | 2234 / 2234 | human-90d-fovea.xml | Done |
 | 90d 17-CZ1/Vertical | human_90d_17-CZ1_vertical | 3996 / 3996 | human-90d-fovea-vertical.xml | Done |
 | (pre-existing) | mouse_P11_101116 | 6205 in bucket (source n/a) | mouse P11 100118.xml (98680485 B, uploaded 2026-10-20 from Win7, verified) + full trakem2 folder (123098 objects, 1.46 TiB at 2026-10-19) | Done |
+| WY_P9-C/Aivia Stitch/Aivia_Tiffs | WY_P9-C | 25515 / 25515 | - | Done (uploaded from Win7, 2026-10-21) |
+| mouse P7_central2/Adjusted stacks | mouse_P7_central2 | 4992 / 4992 | p7_C2_AII_1.xml | Done (uploaded from Win7, 2026-10-21) |
 | 145d round2 | (not decided) | - | - | Skipped by request; not in mapping |
 
 ## Issues
